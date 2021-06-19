@@ -23,7 +23,7 @@ public class Task07 {
         int arab8 = 0;
         int arab9 = 0;
 
-        if (rim1 == "I") {
+        if (rim1 == "I") {// такая цепочка if-ов избыточка, произойдет проверка одного условия на истину, а остальные вынуждены буду отработать вхолостую
             arab1 = 1;
         }
         if (rim2 == "II") {
@@ -59,5 +59,6 @@ public class Task07 {
         System.out.println("VII=" + arab7);
         System.out.println("VIII=" + arab8);
         System.out.println("IX=" + arab9);
-    }
+    }// это задача решается через Switch
+    // да и с количеством переменных у тебя перебор
 }

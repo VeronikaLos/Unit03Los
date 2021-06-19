@@ -46,7 +46,7 @@ public class Task08 {
             } else if (z == '/' && y != 0) {
                 result = x / y;
             } else if (z == '/' && y == 0) {
-                System.out.println("Ошибка деления");
+                System.out.println("Ошибка деления");// лучше не смешивать логику вычислений в вывод сообщений 
             } else if (z == '*') {
                 result = x * y;
             } else {
@@ -56,5 +56,5 @@ public class Task08 {
         }
         System.out.println("Прекращение выполнения вычисления");
     }
-}
+}//зачтено
 
